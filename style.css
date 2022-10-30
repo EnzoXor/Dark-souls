@@ -14,12 +14,49 @@ body
 	align-items: center;
 }
 
+.logo
+{
+	margin-left: 1rem;
+	display: flex;
+	color: aliceblue;
+}
+.gold
+{
+	color: rgb(255, 187, 0);
+}
 .itens
 {
-	width: 50rem;
+	width: 30rem;
 	color: white;
 	display: flex;
 	justify-content: space-between;
 	margin: 5rem;
 	justify-items: space-between;
+}
+
+.dark1
+{
+	height: 50rem;
+	background: url(https://www.ultimaficha.com.br/wp-content/uploads/2018/06/dark-souls-remastered.jpg) no-repeat;
+	background-size: 100rem;
+}
+
+.dark3
+{
+	height: 40rem;
+	width: 100vw;
+	background: url(https://static.bandainamcoent.eu/high/dark-souls/dark-souls-3/00-page-setup/ds3_game-thumbnail.jpg) no-repeat;
+	background-size: 100rem;
+}
+
+.dark1
+{
+	display: flex;
+	justify-content: center;
+}
+
+.dark1 .title
+{
+	color: aliceblue;
+	font-size: 2rem;
 }
